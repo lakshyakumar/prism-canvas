@@ -30,7 +30,7 @@ If any of these are unclear or could reasonably be interpreted in more than one 
 
 **Example:**
 
-*Input:* `"I want to build a marketplace for rare and exotic pets targeting pet lovers"`
+*Input:* `I want to build a marketplace for rare and exotic pets targeting pet lovers`
 
 > Before I start researching, let me confirm what I understood:
 > - **Problem:** Finding rare/exotic pets is fragmented — buyers can't easily locate reputable breeders or sellers in one place
