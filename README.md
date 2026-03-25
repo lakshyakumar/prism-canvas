@@ -6,9 +6,30 @@ Prism is a Claude Code skill (`/prism`) that takes your startup idea and produce
 
 ---
 
+## Installation
+
+**1. Copy the skill into your Claude Code commands directory:**
+
+```bash
+cp prism.md ~/.claude/commands/prism.md
+```
+
+**2. Restart Claude Code.**
+
+> The app does not pick up new commands until it is restarted. If `/prism` does nothing or is not recognised, restart Claude Code and try again.
+
+---
+
 ## Usage
 
+**Desktop app (Claude Code GUI)** — type directly, no quotes needed:
 ```
+/prism your idea here
+/prism your idea here --extended
+```
+
+**Terminal (CLI)** — wrap your idea in quotes to avoid shell issues:
+```bash
 /prism "your idea here"
 /prism "your idea here" --extended
 ```
@@ -29,15 +50,9 @@ Why Now · Jobs To Be Done · Riskiest Assumptions · First Customer · Moat · 
 
 ---
 
-## Installation
+## Don't have Claude Code?
 
-Copy `prism.md` into your Claude Code commands directory:
-
-```
-cp prism.md ~/.claude/commands/prism.md
-```
-
-Then use `/prism` in any Claude Code session.
+Use `PROMPT.md` — paste it into any LLM with web search (ChatGPT, Gemini, Perplexity, Claude.ai) and replace `[YOUR IDEA]` with your idea.
 
 ---
 
